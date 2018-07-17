@@ -20,7 +20,7 @@
     <reportName></reportName>
     
     <!-- report headline - displayed at top-nav, after reportHeadline -->
-    <reportHeadline>Automation Report of Ebay.com</reportHeadline>
+    <reportHeadline>Automation Report of demoqa.com</reportHeadline>
     
     <!-- global date format override -->
     <!-- defaults to yyyy-MM-dd -->
