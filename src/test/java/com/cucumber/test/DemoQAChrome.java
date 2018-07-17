@@ -164,7 +164,7 @@ public class DemoQAChrome {
 	public void after_confirming_click_on_Continue() throws Throwable {
 		try {
 
-			WebDriverWait wait = new WebDriverWait(driver, 5);
+			WebDriverWait wait = new WebDriverWait(driver, 10);
 			wait.until(ExpectedConditions
 					.elementToBeClickable(By.xpath(".//*[@id='checkout_page_container']/div[1]/a/span")));
 			driver.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/a/span")).click();

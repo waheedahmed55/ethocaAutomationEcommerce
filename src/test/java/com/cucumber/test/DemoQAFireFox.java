@@ -167,7 +167,7 @@ public class DemoQAFireFox {
 	@Then("^After confirming, click on Continue button$")
 	public void after_confirming_click_on_Continue_button() throws Throwable {
 		try {
-
+			Thread.sleep(1000);
 			JavascriptExecutor js = (JavascriptExecutor) driver;
 			js.executeScript("arguments[0].click();",
 					driver.findElement(By.xpath(".//*[@id='checkout_page_container']/div[1]/a/span")));

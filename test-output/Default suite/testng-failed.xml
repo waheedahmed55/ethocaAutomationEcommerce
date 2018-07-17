@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [Default suite]" parallel="classes">
+  <parameter name="arg1" value="1"/>
+  <test name="Test(failed)" parallel="classes">
+    <parameter name="arg1" value="1"/>
     <classes>
       <class name="com.cucumber.test.DemoQAFireFox">
         <methods>
-          <include name="click_on_Checkout_link_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page"/>
           <include name="after_confirming_click_on_Continue_button"/>
           <include name="enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase"/>
         </methods>
       </class> <!-- com.cucumber.test.DemoQAFireFox -->
     </classes>
-  </test> <!-- Default test(failed) -->
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
