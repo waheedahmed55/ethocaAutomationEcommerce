@@ -59,9 +59,9 @@ public class DemoQAFireFox {
 			driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 			ExtentReportsClass.startReport("FirefoxTestCase");
 			ExtentReportsClass.test = ExtentReportsClass.extent
-					.startTest("Verify Ebay add to Cart & checkout functionality on Firefox Browser");
+					.startTest("Verify DemoQA add to Cart & checkout functionality on Firefox Browser");
 			ExtentReportsClass.test.log(LogStatus.PASS,
-					"Verify Ebay add to Cart & checkout functionality on Firefox Browser");
+					"Verify DemoQA add to Cart & checkout functionality on Firefox Browser");
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
