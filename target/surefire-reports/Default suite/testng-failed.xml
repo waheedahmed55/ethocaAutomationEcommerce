@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Default suite]" parallel="classes">
+  <parameter name="arg1" value="1"/>
+  <test name="Test(failed)" parallel="classes">
+    <parameter name="arg1" value="1"/>
+    <classes>
+      <class name="com.cucumber.test.DemoQAChrome">
+        <methods>
+          <include name="confirm_that_you_have_placed_the_Order_in_Transaction_Results_page"/>
+          <include name="enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase"/>
+          <include name="chrome_only_validation"/>
+          <include name="after_confirming_click_on_Continue"/>
+          <include name="go_to_Product_category_and_select_Accessories"/>
+          <include name="click_on_Add_to_Cart_for_just_Magic_Mouse"/>
+          <include name="click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page" invocation-numbers="0"/>
+          <include name="go_to_http_store_demoqa_com"/>
+        </methods>
+      </class> <!-- com.cucumber.test.DemoQAChrome -->
+      <class name="com.cucumber.test.DemoQAFireFox">
+        <methods>
+          <include name="after_confirming_click_on_Continue_button"/>
+          <include name="enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase"/>
+        </methods>
+      </class> <!-- com.cucumber.test.DemoQAFireFox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

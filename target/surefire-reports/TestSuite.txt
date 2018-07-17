@@ -1,0 +1,56 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 106.344 s <<< FAILURE! - in TestSuite
+chrome_only_validation(com.cucumber.test.DemoQAChrome)  Time elapsed: 22.838 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.chrome_only_validation(DemoQAChrome.java:88)
+
+go_to_http_store_demoqa_com(com.cucumber.test.DemoQAChrome)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.go_to_http_store_demoqa_com(DemoQAChrome.java:104)
+
+go_to_Product_category_and_select_Accessories(com.cucumber.test.DemoQAChrome)  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.go_to_Product_category_and_select_Accessories(DemoQAChrome.java:121)
+
+click_on_Add_to_Cart_for_just_Magic_Mouse(com.cucumber.test.DemoQAChrome)  Time elapsed: 1.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.click_on_Add_to_Cart_for_just_Magic_Mouse(DemoQAChrome.java:136)
+
+click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page(com.cucumber.test.DemoQAChrome)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page(DemoQAChrome.java:151)
+
+after_confirming_click_on_Continue(com.cucumber.test.DemoQAChrome)  Time elapsed: 1.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.after_confirming_click_on_Continue(DemoQAChrome.java:166)
+
+enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase(com.cucumber.test.DemoQAChrome)  Time elapsed: 16.047 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase(DemoQAChrome.java:207)
+
+confirm_that_you_have_placed_the_Order_in_Transaction_Results_page(com.cucumber.test.DemoQAChrome)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.cucumber.test.DemoQAChrome.confirm_that_you_have_placed_the_Order_in_Transaction_Results_page(DemoQAChrome.java:221)
+
+after_confirming_click_on_Continue_button(com.cucumber.test.DemoQAFireFox)  Time elapsed: 14.014 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <span> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-EU7RG2N', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6500, moz:profile: C:\Users\Divya\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b24f5b32-1757-4af8-9c0b-f44480b84c8f
+	at com.cucumber.test.DemoQAFireFox.after_confirming_click_on_Continue_button(DemoQAFireFox.java:136)
+
+enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase(com.cucumber.test.DemoQAFireFox)  Time elapsed: 1.337 s  <<< FAILURE!
+org.openqa.selenium.ElementNotInteractableException: 
+Element <input id="wpsc_checkout_form_2" class="text wpsc-visitor-meta" name="collected_data[2]" type="text"> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-EU7RG2N', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6500, moz:profile: C:\Users\Divya\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b24f5b32-1757-4af8-9c0b-f44480b84c8f
+	at com.cucumber.test.DemoQAFireFox.enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase(DemoQAFireFox.java:160)
+

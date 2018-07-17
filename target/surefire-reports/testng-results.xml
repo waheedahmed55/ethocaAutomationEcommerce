@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="10" total="16" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="103494" started-at="2018-07-17T07:39:04Z" finished-at="2018-07-17T07:40:47Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="103494" started-at="2018-07-17T07:39:04Z" finished-at="2018-07-17T07:40:47Z">
+      <class name="com.cucumber.test.DemoQAFireFox">
+        <test-method status="PASS" signature="firefox_browser_only_validation()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="firefox_browser_only_validation" duration-ms="52879" started-at="2018-07-17T13:09:04Z" finished-at="2018-07-17T13:09:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firefox_browser_only_validation -->
+        <test-method status="PASS" signature="navigate_to_http_store_demoqa_com()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="navigate_to_http_store_demoqa_com" duration-ms="19579" started-at="2018-07-17T13:09:57Z" finished-at="2018-07-17T13:10:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_http_store_demoqa_com -->
+        <test-method status="PASS" signature="navigate_to_Product_category_and_select_Accessories()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="navigate_to_Product_category_and_select_Accessories" duration-ms="5565" started-at="2018-07-17T13:10:16Z" finished-at="2018-07-17T13:10:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_to_Product_category_and_select_Accessories -->
+        <test-method status="PASS" signature="click_on_Add_to_Cart_button_for_just_Magic_Mouse()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="click_on_Add_to_Cart_button_for_just_Magic_Mouse" duration-ms="3167" started-at="2018-07-17T13:10:22Z" finished-at="2018-07-17T13:10:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Add_to_Cart_button_for_just_Magic_Mouse -->
+        <test-method status="PASS" signature="click_on_Checkout_link_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page(int)[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="click_on_Checkout_link_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page" duration-ms="5283" started-at="2018-07-17T13:10:25Z" finished-at="2018-07-17T13:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Checkout_link_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page -->
+        <test-method status="FAIL" signature="after_confirming_click_on_Continue_button()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="after_confirming_click_on_Continue_button" duration-ms="14007" started-at="2018-07-17T13:10:30Z" finished-at="2018-07-17T13:10:44Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <span> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-EU7RG2N', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6500, moz:profile: C:\Users\Divya\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b24f5b32-1757-4af8-9c0b-f44480b84c8f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <span> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-EU7RG2N', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6500, moz:profile: C:\Users\Divya\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b24f5b32-1757-4af8-9c0b-f44480b84c8f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+	at com.cucumber.test.DemoQAFireFox.after_confirming_click_on_Continue_button(DemoQAFireFox.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_confirming_click_on_Continue_button -->
+        <test-method status="FAIL" signature="enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase" duration-ms="1341" started-at="2018-07-17T13:10:44Z" finished-at="2018-07-17T13:10:46Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <input id="wpsc_checkout_form_2" class="text wpsc-visitor-meta" name="collected_data[2]" type="text"> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-EU7RG2N', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6500, moz:profile: C:\Users\Divya\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b24f5b32-1757-4af8-9c0b-f44480b84c8f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <input id="wpsc_checkout_form_2" class="text wpsc-visitor-meta" name="collected_data[2]" type="text"> could not be scrolled into view
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'DESKTOP-EU7RG2N', ip: '192.168.43.6', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 6500, moz:profile: C:\Users\Divya\AppData\Loca..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: b24f5b32-1757-4af8-9c0b-f44480b84c8f
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:279)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:118)
+	at com.cucumber.test.DemoQAFireFox.enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase(DemoQAFireFox.java:160)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_dummy_data_needed_for_email_billing_or_contact_details_and_click_Purchase -->
+        <test-method status="PASS" signature="confirm_that_you_have_placed_the_Order_in_Transaction_Result_page()[pri:0, instance:com.cucumber.test.DemoQAFireFox@32d992b2]" name="confirm_that_you_have_placed_the_Order_in_Transaction_Result_page" duration-ms="1645" started-at="2018-07-17T13:10:46Z" finished-at="2018-07-17T13:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm_that_you_have_placed_the_Order_in_Transaction_Result_page -->
+      </class> <!-- com.cucumber.test.DemoQAFireFox -->
+      <class name="com.cucumber.test.DemoQAChrome">
+        <test-method status="FAIL" signature="chrome_only_validation()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="chrome_only_validation" duration-ms="22668" started-at="2018-07-17T13:09:04Z" finished-at="2018-07-17T13:09:27Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.chrome_only_validation(DemoQAChrome.java:88)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chrome_only_validation -->
+        <test-method status="FAIL" signature="go_to_http_store_demoqa_com()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="go_to_http_store_demoqa_com" duration-ms="2" started-at="2018-07-17T13:09:27Z" finished-at="2018-07-17T13:09:27Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.go_to_http_store_demoqa_com(DemoQAChrome.java:104)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_http_store_demoqa_com -->
+        <test-method status="FAIL" signature="go_to_Product_category_and_select_Accessories()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="go_to_Product_category_and_select_Accessories" duration-ms="18" started-at="2018-07-17T13:09:27Z" finished-at="2018-07-17T13:09:27Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.go_to_Product_category_and_select_Accessories(DemoQAChrome.java:121)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- go_to_Product_category_and_select_Accessories -->
+        <test-method status="FAIL" signature="click_on_Add_to_Cart_for_just_Magic_Mouse()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="click_on_Add_to_Cart_for_just_Magic_Mouse" duration-ms="1001" started-at="2018-07-17T13:09:27Z" finished-at="2018-07-17T13:09:28Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.click_on_Add_to_Cart_for_just_Magic_Mouse(DemoQAChrome.java:136)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Add_to_Cart_for_just_Magic_Mouse -->
+        <test-method status="FAIL" signature="click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page(int)[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page" duration-ms="2" started-at="2018-07-17T13:09:28Z" finished-at="2018-07-17T13:09:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page(DemoQAChrome.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- click_on_Checkout_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page -->
+        <test-method status="FAIL" signature="after_confirming_click_on_Continue()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="after_confirming_click_on_Continue" duration-ms="1003" started-at="2018-07-17T13:09:28Z" finished-at="2018-07-17T13:09:29Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.after_confirming_click_on_Continue(DemoQAChrome.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- after_confirming_click_on_Continue -->
+        <test-method status="FAIL" signature="enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase" duration-ms="16047" started-at="2018-07-17T13:09:29Z" finished-at="2018-07-17T13:09:45Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase(DemoQAChrome.java:207)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enter_test_data_needed_for_email_billing_or_contact_details_and_click_Purchase -->
+        <test-method status="FAIL" signature="confirm_that_you_have_placed_the_Order_in_Transaction_Results_page()[pri:0, instance:com.cucumber.test.DemoQAChrome@6a024a67]" name="confirm_that_you_have_placed_the_Order_in_Transaction_Results_page" duration-ms="2" started-at="2018-07-17T13:09:45Z" finished-at="2018-07-17T13:09:45Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.extentreport.ExtentReportsClass.endreport(ExtentReportsClass.java:54)
+	at com.cucumber.test.DemoQAChrome.confirm_that_you_have_placed_the_Order_in_Transaction_Results_page(DemoQAChrome.java:221)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirm_that_you_have_placed_the_Order_in_Transaction_Results_page -->
+      </class> <!-- com.cucumber.test.DemoQAChrome -->
+    </test> <!-- Test -->
+  </suite> <!-- Default suite -->
+</testng-results>

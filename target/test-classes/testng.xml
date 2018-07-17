@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite" parallel="classes">
+   <test name="Test">
+    <parameter name="arg1" value="1"></parameter>
+    <classes>
+      <class name="com.cucumber.test.DemoQAChrome"/>
+      <class name="com.cucumber.test.DemoQAFireFox"/>
+    </classes>
+  </test>
+</suite> <!-- Default suite -->
+
