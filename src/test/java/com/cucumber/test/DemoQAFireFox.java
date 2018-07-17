@@ -123,12 +123,12 @@ public class DemoQAFireFox {
 			WebDriverWait wait = new WebDriverWait(driver, 20);
 			wait.until(ExpectedConditions.elementToBeClickable(By.name("Buy")));
 			driver.findElement(By.name("Buy")).click();
+			Thread.sleep(2000);
 			IsclickableElement = Utility.isClickable(By.name("Buy"), driver);
 			System.out.println("Add to cart Button is clickale : " + IsclickableElement);
 			ExtentReportsClass.test.log(LogStatus.INFO, "Add to cart button is clickable : " + IsclickableElement);
 			ExtentReportsClass.test.log(LogStatus.PASS, "Sucessfully clicked on Add To Cart button");
 
-			ExtentReportsClass.test.log(LogStatus.PASS, "Sucessfully clicked on Add To Cart button");
 		} catch (Exception e) {
 			destination = Utility.screenshot(driver, "Firefox Step 4");
 			ExtentReportsClass.test.log(LogStatus.FAIL, e);
@@ -143,8 +143,12 @@ public class DemoQAFireFox {
 	public void click_on_Checkout_link_and_confirm_you_have_Magic_Mouse_in_your_Check_Out_Page(int arg1)
 			throws Throwable {
 		try {
-			WebDriverWait wait = new WebDriverWait(driver, 5);
+			System.out.println("Test output");
+			WebDriverWait wait = new WebDriverWait(driver, 30);
+			
 			wait.until(ExpectedConditions.elementToBeClickable(By.xpath(".//*[@id='header_cart']/a")));
+			//driver.findElement(By.cssSelector("a.cart_icon")).click();
+			Thread.sleep(1000);
 			driver.findElement(By.xpath(".//*[@id='header_cart']/a")).click();
 			IsclickableElement = Utility.isClickable(By.xpath(".//*[@id='header_cart']/a"), driver);
 			System.out.println("Checkout Link is clickale : " + IsclickableElement);
